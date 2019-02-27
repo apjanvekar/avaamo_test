@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  may_be: false
+  'no': false
+  'yes': false
+
+two:
+  may_be: false
+  'no': false
+  'yes': false

@@ -1,860 +1,501 @@
-Server		Service
-40	Application 	OfferFulfillment.APP
-40	Application 	SendSMS.app
-40	Application 	AUDIT_LOG_MSG_APP
-40	Application 	GenericLoggingApp
-40	Application 	ServiceCenter.app
-40	Application 	ReconciledReturnsUplaod.app
-40	Application 	ESB_DW_APP
-40	Service 	SocialBankingService
-40	Application 	CorrelationSecurityService
-40	Application 	CardControlService
-40	Application 	AccountManagementService
-40	Service 	DEMATService_INTEGRATION
-40	Application 	EmailService
-40	Service 	MMID_SERVICE_INTEGRATION
-40	Application 	NEFTService
-40	Application 	NomineeService
-40	Application 	SMSService
-40	Application 	TaxPaymentService
-40	Application 	FinnOneAPI
-40	Service 	BureauQueryService
-40	Application 	CaseManagement
-40	Application 	CreateCaseService
-40	Application 	ProductLeadService
-40	Application 	CreateLeadService
-40	Application 	UPIService
-40	Application 	SovereignGoldBond
-40	Application 	EKYCService
-40	Service 	BeneficiaryManagementService
-40	Application 	Extracts.app
-40	Service 	OpenDataService
-40	Application 	FileManager.app
-40	Service 	CIBILService
-40	Application 	PANAPI
-40	Application 	AmlockProxy
-40	Application 	QHealthCheck
-40	Service 	CreditCardStatus
-40	Application 	Dedupe_Check_CIBIL
-40	Application 	MonitorApp
-40	Service 	VirtualCardManagementService
-40	Application 	ChequeImageApp
-40	Service 	DomesticRemittanceByPartnerService
-40	Service 	IMTService
-40	Service 	IMTFulfillmentService
-40	Application 	IMTFile_Recon
-40	Application 	CorpRegistrationService
-40	Application 	CorporateAuthTxnService
-40	Application 	CorporateBulkTxnWFService
-40	Application 	CorpCaseInitiationService
-40	Application 	ESBUtilities
-40	Application 	InsuranceIntegration
-40	Application 	SIDBI.APP
-40	Application 	ADLRS.MTO.Newgen.app
-40	Application 	AutomatedRateMaintainanceMTSS
-40	Application 	AliPay
-40	Application 	FINNONE_LMS
-40	Application 	FlexProxy.app
-40	Application 	FlexProxy.app
-40	Service 	RewardService_INTEGRATION
-40	Application 	AccountOpeningService
-40	Application 	AccountManagementExtService
-40	Application 	NomineeExtService
-40	Application 	CustomerManagementExtService
-40	Application 	IAMService
-40	Application 	MandateManagementService
-40	Application 	BlockElectronicChannelService
-40	Service 	InstantCreditService
-40	Application 	SendEmail.app
-40	Application 	ICollect.app
-40	Application 	ICollect.Gurukul.app
-40	Application 	ICollect.TATAPOWER
-40	Application 	ICollect.TCS.ION
-40	Application 	ICollect.HODA.BillPayment.app
-40	Application 	ICollect.HODA.VoucherPayment.app
-40	Application 	ICollect.Mohanlal.app
-40	Service 	ECollectService
-40	Service 	AadhaarInquiryService
-40	Service 	InquiryService
-40	Application 	UPIRemitServices
-40	Service 	RemitterAPIService
-40	Service 	Getifscdetails
-40	Service 	SecureFCRAdhocStmt
-40	Application 	ESCROW.APP
-40	Application 	AdhocStatementInquiry
-40	Application 	GEM.Fetch.app
-40	Application 	GEM.Notify.app
-40	Application 	GEM.Match.app
-40	Application 	YesRobot.ChatBot.app
-40	Application 	CibilProxy
-40	Application 	DebitCardManagementExtService
-40	Application 	DebitCardMgmtService
-40	Service 	RegistrationService_INTEGRATION
-40	Application 	CorpMobileBanking
-40	Application 	BA111
-40	Service 	ASBAService
-40	Application 	RNB_CoupanDunia
-40	Application 	GetAcctHolderApi.app
-40	Application 	ServiceLoggingApp
-40	Application 	RNBDigitalMailerService
-40	Service 	payByCreditCardService
-40	Application 	FlexFCCProxy.app
-40	Application 	RXKZL.app
-40	Application 	RXSTD.app
-40	Application 	SSPProxy.app
-40	Application 	RXMDM.app
-40	Service 	BeneMaintenanceService
-40	Application 	BlockYESPayWallet
-40	Application 	EIFS-BOT_OTPService.app
-40	Service 	OTPService
-40	Application 	BlockDebitCardService
-40	Application 	BlockMobileBankingService
-40	Application 	MDMCustomerManagement
-40	Service 	OTPService
-40	Application 	OTPContextualService
-40	Application 	CustomerManagementService
-40	Application 	CustomerManagementServiceOperations
-40	Service 	WGet
-40	Application 	ExternalAdhocStmtInquiry
-40	Application 	InternalAdhocStmtInquiry
-40	Service 	DomesticRemittanceNodalService
-40	Service 	OTPService
-40	Service 	fundsTransferByCustomerService
-40	Application 	CustomerManagementService
-40	Application 	DebitCardManagementService
-40	Service 	RegistrationService_INTEGRATION
-40	Service 	RewardService_INTEGRATION
-40	Application 	EKYC Service
-40	Service 	OTPService
-40	Service 	BeneMaintenanceService
-40	Application 	UPIService
-40	Application 	AUDIT_LOG_MSG_APP
-40	Application 	FlexProxy.app
-40	Application 	FlexProxy.app
-40	Application 	CustomerManagementService
-40	Application 	CustomerManagementServiceOperations
-40	Application 	CustomerManagementService
-40	Application 	CustomerManagementServiceOperations
-40	Application 	AccountManagementExtService
-40	Service 	BeneficiaryManagementService
-40	Application 	AUDIT_LOG_MSG_APP
-40	Application 	ESB_DW_APP
-40	Application 	FlexProxy.app
-40	Application 	ESMService
-40	Application 	ServiceLoggingApp
-41	Application 	OfferFulfillment.APP
-41	Application 	SendSMS.app
-41	Application 	AUDIT_LOG_MSG_APP
-41	Application 	GenericLoggingApp
-41	Application 	ServiceCenter.app
-41	Application 	ReconciledReturnsUplaod.app
-41	Application 	ESB_DW_APP
-41	Service 	SocialBankingService
-41	Application 	CorrelationSecurityService
-41	Application 	CardControlService
-41	Application 	FinnOneAPI
-41	Service 	BureauQueryService
-41	Application 	CaseManagement
-41	Application 	CreateCaseService
-41	Application 	ProductLeadService
-41	Application 	CreateLeadService
-41	Application 	UPIService
-41	Application 	SovereignGoldBond
-41	Application 	EKYCService
-41	Service 	BeneficiaryManagementService
-41	Application 	Extracts.app
-41	Service 	OpenDataService
-41	Application 	FileManager.app
-41	Service 	CIBILService
-41	Application 	PANAPI
-41	Application 	AmlockProxy
-41	Application 	QHealthCheck
-41	Service 	CreditCardStatus
-41	Application 	Dedupe_Check_CIBIL
-41	Service 	VirtualCardManagementService
-41	Application 	ChequeImageApp
-41	Service 	DomesticRemittanceByPartnerService
-41	Service 	IMTService
-41	Service 	IMTFulfillmentService
-41	Application 	IMTFile_Recon
-41	Application 	CorporateAuthTxnService
-41	Application 	CorpRegistrationService
-41	Application 	CorporateBulkTxnWFService
-41	Application 	CorpCaseInitiationService
-41	Application 	ESBUtilities
-41	Application 	InsuranceIntegration
-41	Application 	ADLRS.MTO.Newgen.app
-41	Application 	SIDBI.APP
-41	Application 	AutomatedRateMaintainanceMTSS
-41	Application 	AliPay
-41	Application 	FINNONE_LMS
-41	Application 	FlexProxy.app
-41	Application 	FlexProxy.app
-41	Application 	AccountManagementService
-41	Application 	EmailService
-41	Application 	NEFTService
-41	Application 	TaxPaymentService
-41	Application 	NomineeService
-41	Application 	SMSService
-41	Service 	MMID_SERVICE_INTEGRATION
-41	Service 	DEMATService_INTEGRATION
-41	Service 	RewardService_INTEGRATION
-41	Application 	AccountOpeningService
-41	Application 	AccountManagementExtService
-41	Application 	NomineeExtService
-41	Application 	CustomerManagementExtService
-41	Application 	IAMService
-41	Application 	MandateManagementService
-41	Application 	BlockElectronicChannelService
-41	Service 	InstantCreditService
-41	Application 	SendEmail.app
-41	Application 	ICollect.app
-41	Application 	ICollect.Gurukul.app
-41	Application 	ICollect.TATAPOWER
-41	Application 	ICollect.TCS.ION
-41	Application 	ICollect.HODA.BillPayment.app
-41	Application 	ICollect.HODA.VoucherPayment.app
-41	Application 	ICollect.Mohanlal.app
-41	Service 	ECollectService
-41	Service 	AadhaarInquiryService
-41	Service 	InquiryService
-41	Application 	UPIRemitServices
-41	Service 	RemitterAPIService
-41	Service 	Getifscdetails
-41	Service 	SecureFCRAdhocStmt
-41	Application 	ESCROW.APP
-41	Application 	AdhocStatementInquiry
-41	Application 	GEM.Fetch.app
-41	Application 	GEM.Match.app
-41	Application 	GEM.Notify.app
-41	Application 	YesRobot.ChatBot.app
-41	Application 	CibilProxy
-41	Application 	DebitCardManagementExtService
-41	Application 	DebitCardMgmtService
-41	Service 	RegistrationService_INTEGRATION
-41	Application 	CorpMobileBanking
-41	Application 	BA111
-41	Service 	ASBAService
-41	Application 	RNB_CoupanDunia
-41	Application 	GetAcctHolderApi.app
-41	Application 	ServiceLoggingApp
-41	Application 	RNBDigitalMailerService
-41	Service 	payByCreditCardService
-41	Application 	FlexFCCProxy.app
-41	Application 	RXKZL.app
-41	Application 	RXSTD.app
-41	Application 	SSPProxy.app
-41	Application 	RXMDM.app
-41	Service 	BeneMaintenanceService
-41	Application 	BlockYESPayWallet
-41	Application 	EIFS-BOT_OTPService.app
-41	Service 	OTPService
-41	Application 	BlockDebitCardService
-41	Application 	BlockMobileBankingService
-41	Application 	MDMCustomerManagement
-41	Service 	OTPService
-41	Application 	OTPContextualService
-41	Application 	CustomerManagementService
-41	Application 	CustomerManagementServiceOperations
-41	Application 	ExternalAdhocStmtInquiry
-41	Application 	InternalAdhocStmtInquiry
-41	Service 	DomesticRemittanceNodalService
-41	Service 	WGet
-41	Application 	CorrelationSecurityService
-41	Service 	fundsTransferByCustomerService
-41	Application 	ServiceCenter.app
-41	Application 	EKYC Service
-41	Service 	SupplyChainInterface
-41	Service 	OTPService
-41	Application 	CustomerManagementService
-41	Service 	BeneMaintenanceService
-41	Service 	OTPService
-41	Application 	UPIService
-41	Application 	AUDIT_LOG_MSG_APP
-41	Application 	FlexProxy.app
-41	Application 	FlexProxy.app
-41	Application 	CustomerManagementService
-41	Application 	CustomerManagementServiceOperations
-41	Application 	AccountManagementExtService
-41	Service 	BeneficiaryManagementService
-41	Application 	AUDIT_LOG_MSG_APP
-41	Application 	ESB_DW_APP
-41	Application 	CustomerManagementService
-41	Application 	CustomerManagementServiceOperations
-41	Application 	FlexProxy.app
-41	Application 	ESMService
-41	Application 	ServiceLoggingApp
-45	Application 	SFMS_Gateway
-45	Application 	SFMS_INTEGRATION
-45	Application 	GEM.SFMS.app
-45	Application 	CreditCardService
-45	Application 	CreditCardExtService
-45	Application 	AUDIT_LOG_MSG_APP
-45	Application 	InstantCreditServiceBillDesk
-45	Application 	VisionPlusNotification
-45	Application 	NotificationService
-45	Service 	WGet
-45	Application 	NotificationService
-45	Application 	AUDIT_LOG_MSG_APP
-45	Application 	VisionPlusNotification
-45	Application 	CreditCardExtService
-45	Application 	ECollect.app
-45	Application 	ECollect.AKBAR.app
-45	Application 	ECollect.VFINPL.Investor.app
-45	Application 	ECollect.VFINPL.Agent.app
-45	Application 	ECollect.MITRA
-45	Application 	ECollect.CEAT.app
-45	Application 	ECollect.DDA.app
-45	Application 	ECollect.MPOnline.app
-45	Application 	ECollect.MIMOPT.app
-45	Application 	ECollect.MIMOTH.app
-45	Application 	ECollect.MIMONG.app
-45	Application 	ECollect.DATAINFOSYS.app
-45	Application 	ECollect.ONUS.app
-45	Application 	Ecollect.NearBy.app
-45	Application 	ECollect.AEGCL.app
-45	Application 	ECollect.BPCL.app
-45	Service 	ECollectService
-45	Application 	ECollect.VNSFinance.app
-45	Application 	ECollect.GOAshipyard.app
-45	Application 	ECollect.GOAshipyard_MD.app
-45	Application 	Ecollect.DishTV1.app
-45	Application 	ECollect.VNSCOMMODITIES.app
-45	Application 	ECollect.SMBCSB.app
-45	Application 	ECollect.VodafoneMpesa.app
-45	Application 	ECollect.RelianceCommodities.app
-45	Application 	ECollect.AURIC.app
-45	Application 	ECollect.PayVega.app
-45	Application 	ECollect.Kunwarji.app
-45	Application 	ECollect.CESC.app
-45	Application 	ECollect.Cescht.app
-45	Application 	ECollect.GoProcessing.app
-45	Application 	ECollect.UdaipurCement.app
-45	Application 	ECollect.GoCashFree.app
-45	Application 	ECollect.TMNetworks.app
-45	Application 	ECollect.TRUPAY.app
-45	Application 	ECollect.DakshinHaryana.app
-45	Application 	Ecollect.Sugal.app
-45	Application 	ECollect.OyoRooms.app
-45	Application 	ECollect.CashKumar.app
-45	Application 	ECollect.Nucleus.app
-45	Application 	ECollect.Mahaonline.app
-45	Application 	ECollect.ShopX.app
-45	Application 	ECollect.RelianceSecurities.app
-45	Application 	ECollect.AURIC.app
-45	Application 	ECollect.Antares.app
-45	Application 	ECollect.Primarche.app
-45	Application 	ECollect.SNDT.app
-45	Application 	ECollect.CEPT.app
-45	Application 	ECollect.NIYOPAYFinNew.app
-45	Application 	ECollect.Numberz.app
-45	Application 	ECollect.Swastika.app
-45	Application 	ECollect.TataMotors.app
-45	Application 	ECollect.NIRMA.app
-45	Application 	ECollect.Pennacement.app
-45	Application 	ECollect.RIL.app
-45	Application 	ECollect.AkshOptifiber.app
-45	Application 	ECollect.DRBAMU.app
-45	Application 	ECollect.SmartCoin.app
-45	Application 	ECollect.CetKarnataka.app
-45	Application 	ECollect.GTPLHathway.app
-45	Application 	ECollect.ChoiceEquity.app
-45	Application 	ECollect.TusharLeasing.app
-45	Application 	ECollect.Kredx.app
-45	Application 	ECollect.SagarCement.app
-45	Application 	Ecollect.Tejora.app
-45	Application 	ECollect.HassanDccBank.app
-45	Application 	ECollect.StoreKing2.app
-45	Application 	ECollect.EASYPAY.app
-45	Application 	ECollect.TataPower.app
-45	Application 	ECollect.RatibPal.app
-45	Application 	ECollect.WallStreet.app
-45	Application 	ECollect.CoxAndKings.app
-45	Application 	ECollect.EasyPay2.app
-45	Application 	ECollect.IMCL.app
-45	Application 	ECollect.DTDC.app
-45	Application 	ECollect.Airtel.app
-45	Application 	Ecollect.Sbi.Sikkim.app
-45	Application 	ECollect.SBIMF.app
-45	Application 	ECollect.Jainam.app
-45	Application 	ECollect.Dexpert.app
-45	Application 	ECollect.Bhavya.app
-45	Application 	ECollect.BSE.app
-45	Application 	ECollect.TMCOPS.app
-45	Application 	ECollect.AnandNagri.SMB.app
-45	Application 	ECollect.MyRajshree.app
-45	Application 	ECollect.RapiPay.app
-45	Application 	ECollect.Gudiwada.app
-45	Application 	Ecollect.SpiceDigital.app
-45	Application 	ECollect.STDX01
-45	Application 	ECollect.STDJ01
-45	Application 	ECollect.CreditCard
-45	Application 	ECollect.NxtDigital.app
-45	Application 	A2AEcollect
-45	Application 	RT.Airtel.app
-45	Application 	RT.IMCL.app
-45	Application 	RecurringTransfers.app
-45	Application 	RT.Vodafone.app
-45	Application 	RT.TataPower.app
-45	Application 	RT.Reliance.app
-45	Application 	SendSMS.app
-45	Application 	SendEmail.app
-45	Application 	QHealthCheck
-45	Application 	ECollect.MOTILAL.app
-45	Application 	ECollect.Vectus.app
-45	Application 	Ecollect.Vardhaman.app
-45	Application 	Ecollect.Kanyaka
-45	Application 	Ecollect.Mobiistar.app
-45	Application 	Ecollect.BRAHMDEODADA.app
-45	Application 	Ecollect.WANANA.app
-45	Application 	Ecollect.YAVAT.app
-45	Application 	ECollect.RazorPay.app
-45	Application 	Ecollect.UttarHaryana.app
-45	Application 	Ecollect.KadiNagari.app
-45	Application 	Ecollect.PragatiBank.app
-45	Application 	Ecollect.HUDA.app
-45	Application 	Ecollect.Indoswiss.app
-45	Application 	Ecollect.NagarSahkari.app
-45	Application 	Ecollect.UdaipurUrban.app
-45	Application 	Ecollect.Adani.app
-45	Application 	Ecollect.BSES.app
-45	Application 	Ecollect.Vyaparik.app
-45	Application 	Ecollect.DHBVNL.app
-45	Application 	Ecollect.XUHBVN.app
-45	Application 	Ecollect.HPSEB.app
-45	Application 	Ecollect.JKLaxmi.app
-45	Application 	ECollect.RJIO.app
-45	Application 	Ecollect.UmiyaUrbanBank.app
-45	Application 	Ecollect.IndiaNivesh.app
-45	Application 	Ecollect.DsSpiceCo.app
-45	Application 	Ecollect.Telangana.app
-45	Application 	Ecollect.Fortune
-45	Application 	ECollect_UttarkhandPower
-45	Application 	Ecollect.CONCOR2
-45	Application 	Ecollect.YesBankRetailLoan
-45	Application 	ECollect.RJIO.OutwardRemittence
-45	Application 	ECollect.DISHTV2
-45	Application 	ECollect_TMCBank
-45	Application 	ECollect.Beereshwar
-45	Application 	Ecollect.PuneStockExchange
-45	Service 	WGet
-45	Application 	FileProcess_ECol_Remitter
-45	Application 	ECollect.JKLAXMI.app
-45	Application 	ECollect.PAYMATE.app
-45	Application 	ECollect.MOTILAL.app
-45	Application 	ECollect.DISHTV.app
-45	Application 	ECollect.MOTILAL_FO_321000.app
-45	Application 	ECollect.MOTILAL_MCX_323000.app
-45	Application 	ECollect.MOTILAL_NCDX_322000.app
-45	Application 	ECollect.MOTILAL_NSE_327000.app
-45	Application 	ECollect.SpiceDigital.app
-48	Application 	ConvertionPlugin
-48	Application 	BRD_Reliance_Retail
-48	Application 	BRD_Future_Retail
-48	Application 	BulkPanValidation
-48	Application 	ImageService
-48	Application 	AUDIT_LOG_MSG_APP
-48	Application 	FileProcess.FT.app
-48	Application 	FileProcess.CNB.app
-48	Application 	ReportClrk.app
-48	Application 	QHealthCheck
-48	Application 	FileProcess.CNB2.app
-48	Application 	FileProcess.ReconciledReturns.app
-48	Application 	FileProcess_ECol_Remitter
-48	Application 	FileProcess.IC.app
-48	Application 	FileProcess.SU.app
-48	Application 	GenericLoggingApp
-48	Application 	CreateCSVFile
-48	Application 	Walstreet_XML_Insertion
-48	Application 	WallStreet_Cust_File_Mapper
-48	Application 	Report
-48	Application 	SendEmail.app
-48	Application 	ConcorIntegration
-48	Application 	Cash-ChequeOnline.app
-48	Application 	FileProcess.CC.app
-48	Application 	FileProcess.CC.CD.app
-48	Application 	FileProcess.CC.SDSC.app
-48	Application 	FileProcess.AMLOCK.app
-48	Application 	LateReturns
-48	Application 	ServiceLoggingApp
-48	Application 	CashChequeNotify
-48	Application 	FT.Notify.STD.app
-48	Application 	PushNotification
-48	Application 	MonitorApp
-48	Application 	SendEmail.app
-48	Application 	SendSMS.app
-48	Application 	ReportClrk.app
-51	Service 	fundsTransferByCustomerService2
-51	Application 	PaymentAdvice_EmailNotify
-51	Service 	fundsTransferByCustomerService2
-51	Service 	InwardRemittanceByPartnerService
-51	Service 	InwardRemittanceByPartnerService2
-51	Application 	Notify.WU
-51	Application 	CorrelationSecurityService
-51	Application 	SendEmail.app
-51	Application 	SendSMS.app
-51	Application 	GenericLoggingApp
-51	Application 	PaymentsLoggingApp
-51	Application 	FTBulkPayments
-51	Application 	FT.Notify.STD.app
-51	Application 	NEFTLimitCheck
-51	Application 	PushNotification
-51	Service 	fundsTransferByCustomerService2
-51	Service 	fundsTransferByCustomerService2
-51	Application 	AMLAuditApp
-51	Application 	DomesticPayments
-51	Application 	PaymentReturnConfirmation
-51	Application 	FTFundsTransfer
-51	Application 	IMPSFundsTransfer
-51	Application 	NEFTFundsTransfer
-51	Application 	RTGSFundsTransfer
-51	Application 	LoggingApp
-51	Application 	PaymentEnquiryApp
-51	Service 	FT2Lite
-51	Application 	FT2LiteLoggingApp
-51	Service 	FT2Lite
-51	Application 	N10NotificationService
-51	Application 	QHealthCheck
-51	Application 	Notify.WU.app
-51	Application 	QHealthCheck
-51	Application 	FlexProxy.app
-51	Application 	FinnOneAPI
-51	Service 	IMTService
-52	Service 	fundsTransferByCustomerService2
-52	Application 	PaymentAdvice_EmailNotify
-52	Service 	fundsTransferByCustomerService2
-52	Service 	InwardRemittanceByPartnerService
-52	Service 	InwardRemittanceByPartnerService2
-52	Application 	Notify.WU
-52	Application 	CorrelationSecurityService
-52	Application 	SendEmail.app
-52	Application 	SendSMS.app
-52	Application 	GenericLoggingApp
-52	Application 	QHealthCheck
-52	Application 	PaymentsLoggingApp
-52	Application 	FTBulkPayments
-52	Application 	FT.Notify.STD.app
-52	Application 	PushNotification
-52	Service 	fundsTransferByCustomerService2
-52	Service 	fundsTransferByCustomerService2
-52	Application 	AMLAuditApp
-52	Application 	DomesticPayments
-52	Service 	WGet
-52	Application 	PaymentReturnConfirmation
-52	Application 	FTFundsTransfer
-52	Application 	IMPSFundsTransfer
-52	Application 	NEFTFundsTransfer
-52	Application 	RTGSFundsTransfer
-52	Application 	LoggingApp
-52	Application 	PaymentEnquiryApp
-52	Service 	FT2Lite
-52	Application 	FT2LiteLoggingApp
-52	Service 	FT2Lite
-52	Application 	N10NotificationService
-52	Application 	Notify.WU.app
-52	Application 	FlexProxy.app
-52	Application 	FinnOneAPI
-52	Service 	IMTService
-52	Service 	WGet
-187	Service 	AadhaarInquiryService
-187	Application 	AccountManagementExtService
-187	Application 	AccountManagementService
-187	Application 	AccountOpeningService
-187	Application 	AmlockProxy
-187	Application 	AUDIT_LOG_MSG_APP
-187	Service 	BeneficiaryManagementService
-187	Application 	BlockDebitCardService
-187	Application 	BlockElectronicChannelService
-187	Application 	BlockMobileBankingService
-187	Application 	BlockYESPayWallet
-187	Service 	BureauQueryService
-187	Application 	CardControlService
-187	Application 	CaseManagement
-187	Application 	CibilProxy
-187	Service 	CIBILService
-187	Application 	CorpCaseInitiationService
-187	Application 	CorpMobileBanking
-187	Application 	CorporateAuthTxnService
-187	Application 	CorporateBulkTxnWFService
-187	Application 	AUDIT_LOG_MSG_APP
-187	Application 	CorpRegistrationService
-187	Application 	CreateCaseService
-187	Application 	CreateLeadService
-187	Service 	CreditCardStatus
-187	Application 	CustomerManagementExtService
-187	Application 	CustomerManagementService
-187	Application 	CustomerManagementServiceOperations
-187	Application 	DebitCardManagementExtService
-187	Application 	DebitCardMgmtService
-187	Service 	DEMATService_INTEGRATION
-187	Application 	EKYCService
-187	Application 	EmailService
-187	Application 	ESB_DW_APP
-187	Application 	ESBUtilities
-187	Application 	Extracts.app
-187	Application 	FileManager.app
-187	Application 	FinnOneAPI
-187	Application 	FINNONE_LMS
-187	Application 	AutoLoanService
-187	Application 	GenericLoggingApp
-187	Application 	FlexFCCProxy.app
-187	Application 	FlexProxy.app
-187	Application 	FpInquireTdRdProducts
-187	Application 	FpInquireTdAccounts
-187	Application 	FpInquireCustomerAccount
-187	Application 	FpHoldFundInquiry
-187	Application 	FlexProxy.app
-187	Application 	FCRServicesLoggingApp
-187	Application 	FpInquireTdProductRates
-187	Application 	FpInquireRdProductRates
-187	Application 	FpInquireCasaTdAccountBalance
-187	Application 	FpCustSignVerification
-187	Application 	FlexProxy.app
-187	Application 	IAMService
-187	Service 	InquiryService
-187	Application 	MandateManagementService
-187	Application 	EKYC Service
-187	Application 	MDMCustomerManagement
-187	Application 	AUDIT_LOG_MSG_APP
-187	Service 	MMID_SERVICE_INTEGRATION
-187	Application 	NEFTService
-187	Application 	NomineeExtService
-187	Application 	NomineeService
-187	Service 	OTPService
-187	Service 	OTPService
-187	Application 	OTPContextualService
-187	Application 	PANAPI
-187	Application 	ProductLeadService
-187	Application 	QHealthCheck
-187	Service 	RegistrationService_INTEGRATION
-187	Service 	RewardService_INTEGRATION
-187	Application 	RNB_CoupanDunia
-187	Application 	ServiceLoggingApp
-187	Application 	RNBDigitalMailerService
-187	Application 	RXKZL.app
-187	Application 	RXMDM.app
-187	Application 	MDMServices
-187	Application 	RXSTD.app
-187	Application 	SMSService
-187	Service 	SocialBankingService
-187	Application 	SovereignGoldBond
-187	Application 	TaxPaymentService
-187	Application 	UPIService
-187	Application 	YesRobot.ChatBot.app
-187	Application 	WhatsappRegistrationService
-187	Application 	GenericLoggingApp
-187	Application 	SendEmail.app
-187	Application 	SendSMS.app
-187	Application 	AuditLogApp
-187	Application 	ESBUtilities
-187	Application 	BillerMasterList
-187	Application 	BillPayServices
-187	Application 	FlexiStmtService
-187	Application 	CASAServices
-187	Application 	PANValidation
-187	Application 	OBDX_CRM
-187	Application 	LoyaltyRewards
-187	Application 	DebitCard
-187	Application 	DematServices
-187	Service 	FT2Retail
-187	Application 	EPIPayments
-187	Application 	OBDX_DMS
-187	Application 	FundTransfer
-187	Application 	LoanServices
-187	Application 	TaxPayment
-187	Application 	WMS_MFOnline
-187	Application 	FCRSI
-187	Application 	OBDX_CouponDuniya
-187	Application 	SGBServices
-187	Application 	OBDXDebitCreditPINMngmt
-187	Application 	IFSCValidationService
-187	Application 	RegistrationByCCService
-187	Application 	Wallet
-187	Application 	WMSServices_ext
-187	Application 	EIPOServices
-187	Application 	OBDX_AdobeOffer
-187	Application 	BillDesk_Alerts
-187	Service 	WGet
-187	Application 	BlockElectronicChannelService
-187	Service 	BeneficiaryManagementService
-187	Application 	CustomerManagementService
-187	Application 	NEFTService
-187	Application 	NomineeService
-187	Service 	RegistrationService_INTEGRATION
-187	Application 	YesRobot_ChatBot_app
-187	Application 	AUDIT_LOG_MSG_APP
-187	Service 	SocialBankingService
-187	Service 	BeneMaintenanceService
-187	Application 	CorrelationSecurityService
-187	Service 	DomesticRemittanceByPartnerService
-187	Application 	GEM.Fetch.app
-187	Application 	GEM.Match.app
-187	Application 	GEM.Notify.app
-187	Application 	ADLRS.MTO.Newgen.app
-187	Service 	Getifscdetails
-187	Application 	GenericLoggingApp
-187	Application 	ServiceLoggingApp
-187	Application 	ICollect.app
-187	Application 	ICollect.Gurukul.app
-187	Application 	ICollect.HODA.BillPayment.app
-187	Application 	ICollect.HODA.VoucherPayment.app
-187	Application 	ICollect.Mohanlal.app
-187	Service 	IMTService
-187	Application 	IMTFile_Recon
-187	Service 	InstantCreditService
-187	Service 	OpenDataService
-187	Service 	payByCreditCardService
-187	Application 	Ripple.app
-187	Application 	RippleIntegration
-187	Application 	ESCROW.APP
-187	Service 	OpenDataService
-188	Service 	AadhaarInquiryService
-188	Application 	AccountManagementExtService
-188	Application 	AccountManagementService
-188	Application 	AccountOpeningService
-188	Application 	AmlockProxy
-188	Application 	AUDIT_LOG_MSG_APP
-188	Service 	BeneficiaryManagementService
-188	Application 	BlockDebitCardService
-188	Application 	BlockElectronicChannelService
-188	Application 	BlockMobileBankingService
-188	Application 	BlockYESPayWallet
-188	Service 	BureauQueryService
-188	Application 	CardControlService
-188	Application 	CaseManagement
-188	Application 	CibilProxy
-188	Service 	CIBILService
-188	Application 	CorpCaseInitiationService
-188	Application 	CorpMobileBanking
-188	Application 	CorporateAuthTxnService
-188	Application 	CorporateBulkTxnWFService
-188	Application 	AUDIT_LOG_MSG_APP
-188	Application 	CorpRegistrationService
-188	Application 	CreateCaseService
-188	Application 	CreateLeadService
-188	Service 	CreditCardStatus
-188	Application 	CustomerManagementExtService
-188	Application 	CustomerManagementService
-188	Application 	CustomerManagementServiceOperations
-188	Application 	DebitCardManagementExtService
-188	Application 	DebitCardMgmtService
-188	Service 	DEMATService_INTEGRATION
-188	Application 	EKYCService
-188	Application 	EmailService
-188	Application 	ESB_DW_APP
-188	Application 	FileManager.app
-188	Application 	FinnOneAPI
-188	Application 	FINNONE_LMS
-188	Application 	AutoLoanService
-188	Application 	GenericLoggingApp
-188	Application 	FlexFCCProxy.app
-188	Application 	FlexProxy.app
-188	Application 	FpInquireTdRdProducts
-188	Application 	FpInquireTdAccounts
-188	Application 	FpInquireCustomerAccount
-188	Application 	FpHoldFundInquiry
-188	Application 	FlexProxy.app
-188	Application 	FCRServicesLoggingApp
-188	Application 	FpInquireTdProductRates
-188	Application 	FpInquireRdProductRates
-188	Application 	FpInquireCasaTdAccountBalance
-188	Application 	FpCustSignVerification
-188	Application 	FlexProxy.app
-188	Application 	IAMService
-188	Service 	InquiryService
-188	Application 	MandateManagementService
-188	Application 	EKYC Service
-188	Application 	ESBUtilities
-188	Application 	Extracts.app
-188	Application 	MDMCustomerManagement
-188	Application 	AUDIT_LOG_MSG_APP
-188	Service 	MMID_SERVICE_INTEGRATION
-188	Application 	NEFTService
-188	Application 	NomineeExtService
-188	Application 	NomineeService
-188	Service 	OTPService
-188	Service 	OTPService
-188	Application 	OTPContextualService
-188	Application 	PANAPI
-188	Application 	ProductLeadService
-188	Application 	QHealthCheck
-188	Service 	RegistrationService_INTEGRATION
-188	Service 	RewardService_INTEGRATION
-188	Application 	RNB_CoupanDunia
-188	Application 	ServiceLoggingApp
-188	Application 	RNBDigitalMailerService
-188	Application 	RXKZL.app
-188	Application 	RXMDM.app
-188	Application 	MDMServices
-188	Application 	RXSTD.app
-188	Application 	SMSService
-188	Service 	SocialBankingService
-188	Application 	SovereignGoldBond
-188	Application 	TaxPaymentService
-188	Application 	UPIService
-188	Application 	YesRobot.ChatBot.app
-188	Application 	WhatsappRegistrationService
-188	Application 	GenericLoggingApp
-188	Application 	SendSMS.app
-188	Application 	SendEmail.app
-188	Application 	AuditLogApp
-188	Application 	ESBUtilities
-188	Application 	BillerMasterList
-188	Application 	BillPayServices
-188	Application 	FlexiStmtService
-188	Application 	CASAServices
-188	Application 	PANValidation
-188	Application 	OBDX_CRM
-188	Application 	LoyaltyRewards
-188	Application 	DebitCard
-188	Application 	DematServices
-188	Service 	FT2Retail
-188	Application 	EPIPayments
-188	Application 	OBDX_DMS
-188	Application 	FundTransfer
-188	Application 	LoanServices
-188	Application 	TaxPayment
-188	Application 	WMS_MFOnline
-188	Application 	FCRSI
-188	Application 	OBDX_CouponDuniya
-188	Application 	SGBServices
-188	Application 	OBDXDebitCreditPINMngmt
-188	Application 	IFSCValidationService
-188	Application 	RegistrationByCCService
-188	Application 	Wallet
-188	Application 	WMSServices_ext
-188	Application 	EIPOServices
-188	Application 	OBDX_AdobeOffer
-188	Application 	BillDesk_Alerts
-188	Application 	BlockElectronicChannelService
-188	Service 	BeneficiaryManagementService
-188	Application 	CustomerManagementService
-188	Application 	NEFTService
-188	Application 	NomineeService
-188	Service 	RegistrationService_INTEGRATION
-188	Application 	YesRobot_ChatBot_app
-188	Application 	AUDIT_LOG_MSG_APP
-188	Service 	SocialBankingService
-188	Service 	BeneMaintenanceService
-188	Application 	CorrelationSecurityService
-188	Service 	DomesticRemittanceByPartnerService
-188	Application 	GEM.Fetch.app
-188	Application 	GEM.Match.app
-188	Application 	GEM.Notify.app
-188	Application 	ADLRS.MTO.Newgen.app
-188	Service 	Getifscdetails
-188	Application 	GenericLoggingApp
-188	Application 	ICollect.app
-188	Application 	ICollect.Gurukul.app
-188	Application 	ICollect.HODA.BillPayment.app
-188	Application 	ICollect.HODA.VoucherPayment.app
-188	Application 	ICollect.Mohanlal.app
-188	Service 	IMTService
-188	Application 	IMTFile_Recon
-188	Service 	InstantCreditService
-188	Service 	OpenDataService
-188	Service 	payByCreditCardService
-188	Application 	Ripple.app
-188	Application 	RippleIntegration
-188	Application 	ESCROW.APP
-188	Service 	OpenDataService
+AadhaarInquiryService	getAadhaarStatus	Check aadhaar seeding by calling NPCI
+AccountManagementExtService	GetCASADetailsExt	This operation will fetch CASA related details. 
+AccountManagementService	CreateFDAcc	Create a FD account
+AccountManagementService	GetFDAccDetails	Fetch FD/RD account Details
+AccountManagementService	GetCASADetails	Operation to get CASA Account Details for the requested CASA Account Number
+AccountManagementService	CreateRDAcc	The operation facilitates user to open RD Account from a list of RD products 
+AccountManagementService	GetFDProductPayOutFreq	The operation will provide payout frequency for a specific FD Product which Customer can apply
+AccountManagementService	GetFDRDProductRates	Fetch FD/RD product rates
+AccountManagementService	GetMiniStatement	The operation facilitates user to view Mini Statement on the basis of particular account number.
+AccountManagementService	GetSweepOutBal	The operation provides Current/Saving Account balance which can be used for opening of FD/RD which should be separate from the sweep in balance, which is part of the customers balance if customer has done sweepin.
+AccountManagementService	GetCASABalance	This operation get the casa balance
+AccountManagementService	GetFDRDProductCodes	It will fetch FD/RD Product code 
+AccountOpeningService	GetAvailableAccNos	This operation would provide the available account number for new account creation, from FCR via NewGen.
+AccountOpeningService	CreateWFCase	This operation will create a new case in NewGen for account opening.
+AccountOpeningService	GetCaseStatusCount	This operation will get the count of InProcess, Rejected and Completed cases in NewGen.
+AccountOpeningService	GetCaseListOnStatus	This operation will fetch the list of cases for a particular status for a respective relationship manager.
+AccountOpeningService	GetDiscrepanciesForCase	This operation will fetch the discrepancies raised for a case in NewGen.
+AccountOpeningService	UpdateDiscrepancyCase	This operation will update comments on the NewGen Discrepancy.
+AccountOpeningService	GetWIAttibuteDetails	This operation will get attributes for Workitem in Omniflow (Newgen)
+AccountOpeningService	UpdateWIDetails	This operation will update the Workitem details in NewGen.
+AccountOpeningService	SendOTPToProspect	This operation will insert mobile number for the new customer into NewGen application database and then invoke existing SendOTP API on ESB. SendOTP API will fetch the mobile details from NewGen application and send OTP.
+AccountOpeningService	DedupeCheck	Get Customer Id of existing customer.
+AdhocStatementInquiry	Inquiry	Fetch Statement by account number
+ADLRS.MTO.Newgen.app	GetFCCHolidayMaster	Fetch Holiday master from DB
+ADLRS.MTO.Newgen.app	GetFCCChargeDetails	Fetch Charge Details
+ADLRS.MTO.Newgen.app	GetUDFdetail	Fetch UDF Details
+ADLRS.MTO.Newgen.app	GetUDFList	Get UDF List 
+ADLRS.MTO.Newgen.app	fetch_custDetails_accNo	Get Customer Details by AccountNo
+ADLRS.MTO.Newgen.app	fetch_custDetails_pan	Get Customer Details by PAN
+ADLRS.MTO.Newgen.app	GetFCCCardRate	Get FCC Card rate
+AmlockProxy	searchLists	"The incoming Remitter/Beneficiary name is checked against the name in the list. 
+It gives 3 types of responses 1. MATCH FOUND  2.NO MATCH FOUND  3. ERROR
+A perfect match will disallow the transaction unless a whitelist entry has been authorized for the specific remitter/beneficiary."
+ASBAService	AddHold	"ESB ASBA AddHold API is consumed to add hold fund request to add the hold shares/bids applied by the ASBA brokers/investors
+through ASBA application in case broker's application is selected for allotment.
+This API is exposed to bank's customers and external parties (Brokers & Investors) through API banking channel by exposing ASBA web
+service on IBM through Data Power.
+ESB ASBA service validates the Broker details such as App Id, Broker Name, Code and Location basis the configuration in Service
+center
+The validations are explained in detail under the subsequent validation section. If all validations are passed, then only the request is
+processed, else the API returns appropriate error response.
+On successful validation, ESB ASBA API calls the backend ASBA AddHold API and send the appropriate response to the calling system
+of external consumer.
+If Backend call to ASBA API is timed out, ESB ASBA service initiate the re-query by calling backend ASBA.reQuery API to get and
+update the final status in ESB DB
+AddHold request/response are logged in ESB DB and can be viewed in Service Center in ASBA audit steps screen. "
+ASBAService	inquireHold	"This operation is exposed to expternal parties to enquire the status of their Hold instructions such as AddHold/ModifyHold/WithdrawHold
+in ASBA application through ESB ASBA service via data power.
+ESB ASBA service validates the Broker details such as App Id, Broker Name, Code and Location basis the configuration in Service
+center
+The validations are explained in detail under the subsequent validation section. If all validations are passed, then only the request is
+processed, else the API returns appropriate error response.
+On successful validation, ESB ASBA API calls the backend ASBA Enquiry API and send the appropriate response to calling system of
+external consumer.
+InquiryHold request/response are not logged in ESB DB "
+ASBAService	modifyHold	"This operation is exposed to external parties to allow them to modify the existing Hold funds in ASBA application through ESB ASBA
+service via data power.
+ESB ASBA service validates the Broker details such as App Id, Broker Name, Code and Location basis the configuration in Service
+center
+The validations are explained in detail under the subsequent validation section. If all validations are passed, then only the request is
+processed, else the API returns appropriate error response.
+On successful validation, ESB ASBA API calls the backend ASBA ModifyHold API and send the appropriate response to calling system
+of external consumer.
+If Backend call to ASBA API is timed out, ESB ASBA service initiate the re-query by calling backend ASBA.reQuery API to get and
+update the final status in ESB DB
+ModifyHold request/response are logged in ESB DB and can be viewed in Service Center in ASBA audit steps screen. "
+ASBAService	withdrawHold	"This operation is exposed to expternal parties that allows to delete the existing Hold funds in ASBA application through ESB ASBA
+service via data power.
+ESB ASBA service validates the Broker details such as App Id, Broker Name, Code and Location basis the configuration in Service
+center
+The validations are explained in detail under the subsequent validation section. If all validations are passed, then only the request is
+processed, else the API returns appropriate error response.
+On successful validation, ESB ASBA API calls the backend ASBA WithdrawHold API and send the appropriate response to calling
+system of external consumer.
+If Backend call to ASBA API is timed out, ESB ASBA service initiate the re-query by calling backend ASBA.reQuery API to get and
+update the final status in ESB DB.
+WithdrawHold request/response are logged in ESB DB and can be viewed in Service Center in ASBA audit steps screen. "
+atomProxy.app	POST	Passthough Service for call FCR call
+atomProxy.app	GET	Passthough Service for call FCR call
+atomProxy.app	PUT	Passthough Service for call FCR call
+AUDIT_LOG_MSG_APP	NA	Queue based audit logging
+AutomatedRateMaintainanceMTSS	FetchRate	In INW for MTSS partners, the LCY rate for the same is currently maintained in service center every day. This needs to be automated via an FCCCardRate API.
+BeneficiaryManagementService	addBeneficiary	Add a new beneficiary 
+BeneficiaryManagementService	deleteBeneficiary	delete a beneficiary
+BeneficiaryManagementService	getAllBeneficiaries	Fetch all beneficiaries
+BeneficiaryManagementService	getBeneficiary	Fetch beneficiary details on the basis of customer id and beneficiary id.
+BeneficiaryManagementService	modifyBeneficiary	Modify beneficiary
+BeneficiaryManagementService	canTransfer	Cancel transfer to beneficiary
+BeneficiaryManagementService	sendAlert	Send alert 
+BeneficiaryManagementService	updateDailyLimit	
+BeneMaintenanceService		
+BillAutoPayManagementService	addInstructionForBiller	To register for an auto pay biller and set the auto pay instruction for this biller
+BillAutoPayManagementService	addInstructionForBillerAccount	"To set the AutoPay instruction for the biller(using billerAccountNo) which is already added for the
+customer"
+BillAutoPayManagementService	deleteInstruction	To delete the instructions which are set for the biller or billerAccountID.
+BillAutoPayManagementService	modifyInstruction	To modify the instructions which are set for the biller or billerAccount.
+BillAutoPayManagementService	viewAllInstructions	To view all the instruction set for the particular biller account or for all the biller accounts
+BillManagementService	addBillerAccount	To add the biller account against a customer ID
+BillManagementService	deleteBillerAccount	To delete the biller account which is already added against a customer ID
+BillManagementService	getAllBillerAccounts	To get the all the biller accounts pertaining to a particular customer ID
+BillManagementService	getAllBillers	To get all the billers based on location and category
+BillManagementService	getBiller	To get the biller details on the basis of bille code
+BillManagementService	getBillerAccount	To get the information about the biller account
+BillPaymentService	getAllBillPayments	To view past payments made to a biller.
+BillPaymentService	getAllBills	To get all the bills that have been presented by billers. A criteria can be specified to get bills for specific billers and billerAccounts.
+BillPaymentService	getAllTopups	Display all Topups
+BillPaymentService	getBillPaymentStatus	To get the status of a previously executed billpayment operation.
+BillPaymentService	getTopupStatus	Retrieve status for transaction previously submitted.
+BillPaymentService	payBill	To pay a presented bill.
+BillPaymentService	payToBiller	To pay to a biller. 
+BillPaymentService	payToBillerAccount	To pay to a previously registered billerAccount.
+BillPaymentService	topup	Submit payment order transaction
+BlockDebitCardService	BlockDebitCard	API to Hotlist the Card and Raise a CRM request and send success response to the initiator.
+BlockElectronicChannelService	BlockRNB	ESB will receive request from different channels along with User id then customer id and mobile number is validated with FCR ESB will invoke respective channels APIs\Procedures for block user access to that channel.
+BlockMobileBankingService		blocking mobile banking via SMS in case of any fraud/false transaction complains
+BlockYESPayWallet		for blocking YesPay Wallet with proper authentication and also raise a dispute online for unauthorized transaction.
+BRD_Future_Retail	Not Available	Customer sends to Fantail SFTP. Excel to CNB comma seperator file. 
+BRD_Reliance_Retail	Not Available	Customer sends to Fantail SFTP. Excel to CNB comma seperator file. 
+BureauQueryService	bureauQuery	The current Bureau Query API is used for getting the credit score for an applicant. This API internally connect with Experian Bureau, CIBIL, Hunter, and ProveId for PAN, Voter and Demog
+CallGetAllBillers		Serivice calling getAllBillers operation in BillManagementService - BugFix Listener - Nobody calls this service
+CardControlService	RegisterCard	This operation is used to register card with MasterCard for card control services.
+CardControlService	SetCardControls	This operation is used to register card and set multiple controls on card.
+CardControlService	GetCardControls	This operation is used to get Card Controls that are set onto a particular card.
+CardControlService	DeleteCard	This operation is used to delete card entry of the registered card with MasterCard for card control services.
+CardControlService	CopyCardControls	This operation is used to copy Card Controls set on one card, onto another card.
+CardControlService	SetTimePeriodConfig	This operation is used to Set the Time Period for a particular card. This operation works on single card only
+CardControlService	GetTimePeriodConfig	The SetEMailAddressRequest is used to set the e-mail address for a previously registered RCN. 
+CardControlService	SetEMailAddress	The GetEMailAddressRequest is used to retrieve the e-mail address for an RCN.
+CardControlService	GetEMailAddress	The SetEMailAddressRequest is used to set the e-mail address for an RCN.
+CardControlService	SetPhoneNumber	The SetPhoneNumberRequest is used to set the phone number for a previously registered RCN.
+CardControlService	GetPhoneNumber	The GetPhoneNumberRequest is used to retrieve the phone number for an RCN.
+CaseManagement	CreateCase	This operation will create CASE in CRM.
+CaseManagement	GetCasesForCustomer	This operation will fetch the details of customer
+CaseManagement	GetCaseStatus	This operation will get status of CASE in CRM.
+CibilProxy	CibilProxy	CIBIL proxy service do the messaging on top of the Elink response to expose it to the outside applications.
+CIBILService	CIBIL_Enq_Rec	Credit Card CIBIL Enquiry
+ConvertionPlugin	Not Available	NA
+CorpCaseInitiationService	Not Available	NA
+CorpMobileBanking	CNBLogin	 Register New User for IAM Service.
+CorporateAuthTxnService	GetPendingAuthTxns	This operation will fetch all pending fund transactions for a particular customer.
+CorporateAuthTxnService	AuthBulkFiles	This operation will Authorize Bulk Files.
+CorporateAuthTxnService	AuthBulkTxns	This operation will perform authorization of bulk transactions.
+CorporateAuthTxnService	GetFDList	This operation will fetch list of FD associated with particular user id.
+CorporateAuthTxnService	AuthFDRequest	This operation will authorize the selected initiated FD request.
+CorporateAuthTxnService	GetBulkTxnList	This operation will fetch Bulk fund Transaction List for a particular customer.
+CorporateAuthTxnService	GetNonBulkTxnList	This operation will fetch Non Bulk fund Transaction List for a particular customer.
+CorporateAuthTxnService	AuthNonBulkTxns	This operation will perform authorization of Non bulk transactions.
+CorporateAuthTxnService	GetBulkFileTxnRecords	This operation will fetch bulk file transaction records.
+CorporateAuthTxnService	GetTLAPagination	This operation will get the list of Transaction reference Numbers in a bulk file.
+CorporateAuthTxnService	Pagination	To get records in set of 10.
+CorporateBulkTxnWFService	GetAccDetails	Fetch account and customer details for a particular account.
+CorporateBulkTxnWFService	GetDocMetadata	Fetch Metadata for a document.
+CorporateBulkTxnWFService	SetWIAttributes	Set attributes for a particular Work Item.
+CorporateRegistrationService	ValidateCorpLogin	This operation validate the credentials using FCR API (corporateUserLogin - FCDB CNB User Login – FCDB). This API checks input ‘UserID’ value against a user role table maintained in FCATCUPG. FCR API is invoked only in case where the user id is present in the mentioned table. This API calls a stored procedure to fetch the details from FCATCUPG.
+CorrelationSecurityService	NA	"Used for Data Power. Used for Whitelisting and customer validation. Correlservice_Audit_master table
+DB query for enquiry and SOAP UI API via service center for customer update"
+CaseManagement	CreateCaseService	Duplicate
+CreateCSVFile	Not Available	
+CreateLeadService (ProductsLeadManagement)	createLead	Duplicate
+CreditCardExtService	GetCreditCardIndicator	This operation will check for whether the customer is a valid CC customer or not. 
+CreditCardExtService	GetCustomerDetails	This operation will fetch the existing credit card customer details.
+CreditCardService	VerifyRegistration	This operation is to retrieve Customer Id and Mobile Number details from V+, while doing registration using Credit Card.
+CreditCardService	GetLinkedCardAccountList	This operation is to Linked Account Details for a particular account number.
+CreditCardService	GetCardAccountDetails	This operation is to fetch Account Details for a particular account number.
+CreditCardService	GetUnbilledTxnsDetails	This operation is to fetch Unbilled transaction details for particular Account number, direction flag and Unbilled transaction sequence number.
+CreditCardService	MakePayment	This operation will send a request to VisionPLUS with to apply the payments received from Netbanking real-time. VisionPLUS will receive the payment request and will apply the payment to the Card.
+CreditCardService	ChangePIN	This operation is used to change PIN for credit card.
+CreditCardService	UpdateBlockCode	This operation is used to block or unblock a credit card.
+CreditCardService	SetLocationIndicator	This operation is used to set Local Use Indicator. This indicator identifies whether the card can be used at International location or Locally only.
+CreditCardService	RedeemRewardPoints	This operation is used to redeem reward points.
+CreditCardService	CheckMobileUpdate	This operation is used to check whether mobile number has been updated in last 15days.
+CreditCardService	MerchantPayment	This operation will send a Merchant Payment request to Credit Card Switch.
+CreditCardService	DebitCCAcc	This operation will Debit\Credit CC Acc provided
+CreditCardService	GetStatementLink	This operation gets the link to the location where statement document resides which is generated by Aurionpro application.
+CreditCardStatus	Not Available	NA
+CustomerManagementExtService	GetAllCustomerDetails	GetAllCustomerDetails
+CustomerManagementService	GetTDSCertificate	GetTDSCertificate
+CustomerManagementService	GetAllAccounts	GetAllAccounts
+CustomerManagementService	GetAccStmtRegStatus	GetAccStmtRegStatus
+CustomerManagementService	GetStmtFlexiFreqCode	GetStmtFlexiFreqCode
+CustomerManagementService	UpdateEmailStmtReg	UpdateEmailStmtReg
+CustomerManagementService	UpdateStmtFlexiFreq	UpdateStmtFlexiFreq
+CustomerManagementService	GetInboxQueryType	GetInboxQueryType
+CustomerManagementService	CreateInboxReply	CreateInboxReply
+CustomerManagementService	DeleteInboxMsg	DeleteInboxMsg
+CustomerManagementService	GetInboxQueryDescription	GetInboxQueryDescription
+CustomerManagementService	GetInboxQueryList	GetInboxQueryList
+CustomerManagementService	GetInboxQueryView	GetInboxQueryView
+CustomerManagementService	GetStmtFlexiFreqMaster	GetStmtFlexiFreqMaster
+CustomerManagementService	UpdateClubLimit	UpdateClubLimit
+CustomerManagementService	UpdateRNBRegDetails	UpdateRNBRegDetails
+CustomerManagementService	GetRoleActvityDetails	GetRoleActvityDetails
+CustomerManagementService	GetAllFDAccDtls	GetAllFDAccDtls
+CustomerManagementService	GetRMDetails	GetRMDetails
+CustomerManagementService	GetPrjFDMaturityAmt	GetPrjFDMaturityAmt
+CustomerManagementService	SetMBClubLimit	SetMBClubLimit
+CustomerManagementService	GetInboxUnReadCount	GetInboxUnReadCount
+CustomerManagementService	CreateInboxMsg	CreateInboxMsg
+CustomerManagementService	GetClubbingLimit	GetClubbingLimit
+DebitCardManagementExtService	MerchantPayment	This operation will perform merchant payment using customer debit card from MasterCard.
+DebitCardManagementExtService	GetDebitCardDtls	Retrieves the List of DebitCard details based on associated Customer ID.Input/Request Structure
+DebitCardMgmtService	GetDebitCardList	
+DebitCardMgmtService	HotListDebitCards	
+DebitCardMgmtService	GetDebitCardAccList	
+DebitCardMgmtService	ReGeneratePIN	Reset the PIN associated with Debit Card Consumer will provide the encrypted pin block instead of clear text pin
+DebitCardMgmtService	BlockCards	
+DebitCardMgmtService	UnBlockCards	
+DebitCardMgmtService	GetBlockedCardList	
+DebitCardMgmtService	ChangePIN	
+DEMATService_INTEGRATION	GetHoldingAccDetails	This operation provides Holding Account Details for the input Investment Account Number. The details are fetched from CMC application.
+DEMATService_INTEGRATION	GetPersonalDetails	This operation provides additional details of the Investment Account. The detials are fetched form CMC application.
+DEMATService_INTEGRATION	GetTransactionDetails	This operation provides transaction details for the input account number. The detials are fetched form CMC application.
+DomesticRemittanceByPartnerService	getBalance	To get the balance in Co-operative Bank’s account.
+DomesticRemittanceByPartnerService	getRemittanceStatus	To get the status of the remittance transaction initiated earlier.
+DomesticRemittanceByPartnerService	getTransactions	To get the transactions in Co-operative Bank’s account for a date range.
+DomesticRemittanceByPartnerService	remit	"To initiate a payment transaction on behalf of the Co-operative Bank’s Customer or for Co-operative Bank’s own
+payment"
+ECollect.VA.app	Not Available	NA
+ECollectService	Not Available	NA
+EIFS-BOT_OTPService.app	SendOTP	send OTP
+EIFS-BOT_OTPService.app	verifyOTP	verifyOTP
+EKYC Service	GetBFDData	This operation will verify which finger print is stored best at UIDAI. This module will be used in the cases that customer is getting subsequent failure response in Biometric EKYC, despite being registered with UIDAI.
+EKYC Service	GetAuthData	This operation is used to perform Biometric Authentication.
+EKYC Service	GetDemoAuthData	This operation is used to perform Demographic Authentication.
+EKYC Service	GetAadhaarData	This operation is to retrieve Customer Id and Mobile Number details from V+, while doing registrat
+EmailService	InsertEmailDetails	This operation is used for insert into db for sending email
+ESB_DW_APP	Not Available	
+ESBUtilities	Not Available	
+ESCROW.APP	getAccountsByPeriod	get the account details of that productcode and account status for the timeperiod 
+ESCROW.APP	getEODBalance	get the balance of account
+ESCROW.APP	getNEFTRTGSStatus	Status of NEFT/RTGS
+Extracts.app	Not Available	
+FileManager.app	Filebased Service	Application to support retry/skip from ServiceCenter UI
+FileProcess.AMLOCK.app	Filebased Service	File Uplaod for AML
+FileProcess.CC.app	Filebased Service	File upload for operations
+FileProcess.CC.CD.app	Filebased Service	File upload for single debit multiple credit
+FileProcess.CC.SDSC.app	Filebased Service	File upload for single debit Single credit
+FileProcess.CINEPOLIS.app	Filebased Service	
+FileProcess.CNB.app	Filebased Service	CNB - File 2 API (File Converter)
+FileProcess.CNB2.app	Filebased Service	CNB2 - File 2 API (File Converter)
+FileProcess.ECOL.VA.CD.app	Filebased Service	
+FileProcess.FT.app	Filebased Service	FileToAPI application for FT2 service, allows file upload for funds transfer and generates response file
+FileProcess.GEM.DDO.app	Filebased Service	
+FileProcess.IC.app	Filebased Service	File Upload for Instant credit service. Consumes files generated by third party system for transactions initiated via API call
+FileProcess.PPC.app	Filebased Service	File Upload for loading and unloading cards
+FileProcess.ReconciledReturns.app	Filebased Service	File Upload for loading and unloading cards
+FileProcess.SU.app	Filebased Service	Salary Upload. inquireCasaAccountBalance( SessionContext, String),fundsXferCASAToCASA
+FinnOneAPI	Not Available	
+FlexFCCProxy.app	Not Available	
+FlexProxy.app	validateCustomer	
+FlexProxy.app	inquireCustomerAccount	
+FlexProxy.app	inquireCASAMiniListOfTransaction	
+FlexProxy.app	inquireCasaAccountBalance	
+FlexProxy.app	inquireCASAStatementRequest	
+FlexProxy.app	requestChequeBook	
+FlexProxy.app	inquireCASAChequeStatus	
+FlexProxy.app	inquireTDAccounts	
+FlexProxy.app	inquireTDBalanceDetails	
+FlexProxy.app	inquireStopChequeDetails	
+FlexProxy.app	inquireStopChequeSeries	
+FlexProxy.app	fundsXferCASAToCASA	
+FlexProxy.app	fundsXferCASAToCASA	
+FlexProxy.app	fundsXferNEFT	
+FlexProxy.app	userLogin	
+FlexProxy.app	corporateUserLogin	
+FlexProxy.app	beneficiaryLibrary	
+FlexProxy.app	beneficiarySearch	
+FlexProxy.app	FCDBUserPBKDF2RetailCheck	
+FlexProxy.app	FCDBUserPBKDF2CorpCheck	
+FlexProxy.app	miscCustomerDebit	
+FlexProxy.app	miscCustomerCredit	
+FlexProxy.app	holdRequestForASBA	
+FlexProxy.app	deleteEarmarkASBA	
+FlexProxy.app	inquireCasaTdAccountBalance	
+FlexProxy.app	modifyEarmarkASBA	
+FlexProxy.app	custSignVerification	
+FlexProxy.app	fundsXferFCATRTGS	
+FlexProxy.app	inquireBranchDetails	
+FlexProxy.app	inquireTDRDProducts	
+FlexProxy.app	inquireTDProductRates	
+FlexProxy.app	tdAccountOpeningPayin	
+FlexProxy.app	inquireRDProductRates	
+FlexProxy.app	rdAccountOpeningPayin	
+FlexProxy.app	miscGLTransfer	
+FlexProxy.app	MBUserRegistration	
+FlexProxy.app	CubblingLimitMaintenance	
+FlexProxy.app	transactionLimitMaintenance	
+FlexProxy.app	aadharPanMaintenance	
+FlexProxy.app	inquireAccountBalanceASBA	
+FlexProxy.app	inquireCASACustomerAccount	
+FT.Notify.STD.app	NA	Standard notification app for FT-2
+fundsTransferByCustomerService2		
+GEM.Fetch.app	NA	TO match fetched bids with SFMS bids received
+GEM.Match.app	NA	TO notify GEM of matching bids
+GEM.Notify.app	NA	TO notify GEM of matching bids
+GEM.SFMS.app	NA	To fetch bids from SFMS
+GEM.SGPA.app	accountValidation	
+GEM.SGPA.app	vanDDORegistration	
+GEM.SGPA.app	blockUnblock	
+GEM.SGPA.app	paymentInstructions	
+GEM.SGPA.app	paymentStatus	
+GEM.SGPA.app	getTokenDetails	
+GEM.SGPA.app	chalanGeneration	
+GEM.SGPA.app	submitChallan	
+GetAcctHolderApi.app	Not Available	
+GetAcctHolderApi.app	Not Available	
+GetAcctHolderApi.app	Not Available	
+GetAcctHolderApi.app	Not Available	
+GetAcctHolderApi.app	Not Available	
+GetAcctHolderApi.app	Not Available	
+Getifscdetails	getifscdetails	Get IFSC Details
+IAMService	CWS	
+IAMService	CWS	
+IAMService	CWS	
+IAMService	CWS	
+IAMService	CWS	
+IAMService	CWS	
+ICollect.app	Not Available	To validate the details with the corparate generated via Invoice Express system
+ICollect.app	picifscdetails	
+ICollect.Gurukul.app	Not Available	
+ICollect.HODA.BillPayment.app	Not Available	Notify Adaptor for HUDA bill payment
+ICollect.HODA.VoucherPayment.app	Not Available	Notify Adaptor for HUDA Voucher
+ICollect.Mohanlal.app	Not Available	Notify Adaptor for Mohanlal client
+ImageService		This operation would upload document to a Document Management System like OmniDocs (Newgen).
+IMTFulfillmentService		To withdraw IMT issues
+IMTFulfillmentService		Reverse the IMT withdrawan
+IMTFulfillmentService		Get the status of withdraw IMT request
+IMTFulfillmentService		To check GL balance of BC
+IMTService	addBeneficiaryDetail	To add a beneficiary for IMT. Only registered beneficiares can be used for initiateTransfer . A beneficiary is identified by a mobile no, adding the same beneficiary again is not allowed.
+IMTService	cancelTransferDetail	To cancel a previously initiated IMT. Cancellations are allowed only for those transfers that were initiated by the service. 
+IMTService	deleteBeneficiaryDetail	To delete a previously registered beneficiary. Once cancelled no further transactions are allowed. Existing transfers, that are in process, will complete
+IMTService	getBeneficiariesDetail	To get the list of registered beneficiaries, optionally a date criteria can be specified to restrict results to beneficiaries registered for a given date range.
+IMTService	getTransferStatusDetail	To get the current status from the lifecycle of an IMT transfer. The transfer can be fetched basis the uniqueRequestNo of the initiateTransfer, as well as the imtReferenceNo.
+IMTService	initiateTransferDetail	To initiate an IMT for a registered beneficiary. Once initiated, the transaction will either complete, or expire. Initiated transfers can be called via the cancelTransfer operation, before they are completed. 
+IMTService	resendOTPDetail	Request-response. The endpoint receives a message, and sends a correlated message
+InquiryService	getDepositedChequeOrDdStatus	
+InstantCreditService	PayNow	
+InstantCreditServiceBillDesk		, when customer initiate the payment from non-YBL savings account to their YBL Credit Cards, customer will see an instant payment confirmation and the OTB (Open to buy) on the Credit Card will be released instantly which will allow the customer to go for further purchases immediately
+InsuranceIntegration	GetCustomerDetails	Fetch Customer Details
+InwardRemittanceByPartnerService	remit	"To remit funds on behalf of a remitter. The transaction will be accepted only if all checks and balances are passed. These include, sufficient funds in the drawing account, a valid purpose code, the transaction being within limits (both transaction and velocity).
+In case the remitter name and/or the beneficiary name is found in the scan lists, additional identity information is necessary for the transaction to be accepted.
+Certain trasfer types are not processed in realtime, and require a second call to getRemittanceStatus to find out the status of the transaction.
+In a few cases, additional information may be required to be submitted, even after the transaction has been accepted and completed. In case additional information is required, it is indicated in the response."
+InwardRemittanceByPartnerService	getRemittanceStatus	To get the status of a remit operation. A status is returned only when the request was accepted. If this service is called for a reference that did not exist, a Fault will be returned.
+InwardRemittanceByPartnerService	getBalance	To get the balance for the account. 
+InwardRemittanceByPartnerService2	startRemit	"To start a remittance request. 
+This method does priliminary checks on the request, and queues the remit for processing at a later time. 
+It is necessary to introspect the response to know whether the request was accepted or not .
+In case a Soap Fault is received, the request may be re-tried, as the service identifies duplicate requests & accepts them only once."
+InwardRemittanceByPartnerService2	getStatus	To get the status of a remit operation. A status is returned only when the request was accepted. If this service is called for a reference that did not exist, a Fault will be returned.
+InwardRemittanceByPartnerService2	getBalance	To get the balance for the account. 
+MandateManagementService	GetMandateStatus	 This operation will fetch status of existing Mandate.
+MDMCustomerManagement	CreateCustomer	
+MMID_SERVICE_INTEGRATION		
+MonitorApp		
+N10_RecordsFilter	NA	Special char in N10 file format (for email & sms notification) 
+NEFTService	GetNEFTSIDetails	Operation to get NEFT SI setup list 
+NEFTService	GetNEFTSIFreqList	Operation to get NEFT SI Frequency Master
+NEFTService	GetNEFTSITxnDetails	Operation to fetch  transaction details of a SI and their status
+NEFTService	UpdateNEFTSI	Operation to save  SI setup
+NomineeExtService	AddNominee	Operation for adding Nominee
+NomineeExtService	DeleteNominee	Operation for Delete Nominee
+NomineeExtService	ModifyNominee	Operation for Modify Nominee
+NomineeExtService	GetNomineeDetails	Operation for get Nominee Details
+NomineeService	UpdateNomineeDetails	This operation saves the nominee request for the selected account
+NomineeService	GetNomineeDetails	This operation provides details of Nominee
+NomineeService	GetNomineeRelList	This operation  provides the Nominee Relation Master list.
+NotificationService	SendAlertToVivaConnect	Send Email/SMS alerts via Viva Connect.
+Notify.WU.app	DB input Service	
+OfferFulfillment.APP	Not Available	
+OpenDataService	Not Available	
+OTPService	SendOTP	send OTP
+OTPService	verifyOTP	verifyOTP
+PANAPI	validatePAN	
+payByCreditCardService	getAvailablelimit	Get the available limit for the customer 
+payByCreditCardService	getStatus	Get the status of the transactions
+payByCreditCardService	transfer	
+PrepaidCardManagementService	registerCard	
+PrepaidCardManagementService	loadCard	
+PrepaidCardManagementService	blockCard	
+PrepaidCardService	getBeneficiaries	
+PrepaidCardService	getTransactions	
+PrepaidCardService	Pay To Account	
+PrepaidCardService	Pay To Contact	
+PrepaidCardService	topup	
+PrepaidCardService	VerifyPin	
+PrepaidCardService2	loadCard	
+PrepaidCardService2	unloadCard	
+PrepaidCardService2	getStatus	
+PrepaidCardService2	getCardTransaction	
+PrepaidCardService2	getCardBalance	
+PrepaidCardService2	getAccountBalance	
+PrepaidCardService2	changeCardPin	
+PrepaidCardService2	blockCard	
+ProductLeadService	GetLeadDetails	To get all lead details from CRM application
+ProductLeadService	GetOfferAllDetails	To get complete offer details for a customer, including USPs or additional details.
+ProductLeadService	GetLeadsForCustomer	This operation will get the leads for customer
+ProductLeadService	GetLeadStatus	"This operation will be used to fetch status of the lead details from CRM application.
+Input is Lead id and response is its status details."
+ProductLeadService	CreateLead	To create the lead 
+ProductLeadService	GetLeadsForUser	Get the lead for the user
+ProductLeadService	GetLeadStatusFromWorkflow	This operation will fetch the Lead status from different Workflow application depending on the Product Type.
+QHealthCheck	Not Available	Service to check the status of JDBC DSN's - only used by middleware team
+ReconciledReturnsUplaod.app	Not Available	Retrieve One Time password value for Pre-login using Debit Card Credentials
+RegistrationService_INTEGRATION	GetOTPByDC	Retrieve One Time password value for Pre-login using Debit Card Credentials
+RegistrationService_INTEGRATION	ValidateCustInfo	Verify Customer Information to retrieve One Time Password.
+RegistrationService_INTEGRATION	GetOTPByRNB	Retrieve One Time password value for Pre-login using Net Banking Credentials
+RegistrationService_INTEGRATION	ValidateDCLogin	Validates the Debit Card login credentials 
+RegistrationService_INTEGRATION	ValidateRNBLogin	Validates the Retail Net Banking  login credentials 
+RegistrationService_INTEGRATION	GetSaltUserId	Retrieve Salt string of the username which will be used for subsequent login call
+RegistrationService_INTEGRATION	VerifyOTP	Verify OTP value received by the Customer
+RemitterAPIService	Not Available	
+Report	Not Available	
+ReportClrk.app	Service Centre	Database Pollar to download report to display on SC
+RewardService_INTEGRATION		
+Ripple.app	processNotification(fail)	
+Ripple.app	processNotification(return)	
+Ripple.app	processNotification(Sub_payment) 	
+Ripple.app	getsettledQuote	
+Ripple.app	processLedger	
+Ripple.app	processINW 	
+RippleIntegration	getToken	
+RippleIntegration	getAcceptedQuote	
+RippleIntegration	lockQuote	
+RippleIntegration	addLabelFailure	
+RippleIntegration	getLockedReturn	
+RippleIntegration	returnSubPayment	
+RippleIntegration	leadgerCredits	
+RippleIntegration	returnPayment	
+RippleIntegration	failpayment	
+RNB_CoupanDunia	fetchTimestamp	
+RNB_CoupanDunia	fetchCoupon	
+RXKZL.app	Send custom message to subscribers in a public group	
+RXKZL.app	Send messages on group	
+RXKZL.app	Post Custom Action to a public group	
+RXKZL.app	Send custom action to a group with properties	
+RXKZL.app	Post a job on a group	
+RXKZL.app	Post a poll on a group	
+RXKZL.app	Get Group Details	
+RXKZL.app	Subscribe to all events at action level with action package id	
+RXMDM.app		
+RXSTD.app		
+SecureFCRAdhocStmt	Not Available	
+SendEmail.app	DB input Service	Application to send Email via SMTP
+SendSMS.app	DB input Service	Application to send SMS via MIDE
+ServiceCenter.app	Not Available	
+SFMS_Gateway	Not Available	
+SFMS_INTEGRATION	Not Available	
+SIDBI.APP	DailySummaryAccount	
+SIDBI.APP	HourlyStatement	
+SIDBI.APP	PAN_NOAddition	
+SMSService	InsertSMSDetails	
+SocialBankingService	registerCustomerIdentity	
+SocialBankingService	getBeneficiaries	
+SocialBankingService	getAllAccounts	
+SocialBankingService	getCheckStatus	
+SocialBankingService	getTransactions	
+SocialBankingService	orderCheckBook	
+SocialBankingService	orderStatement	
+SocialBankingService	stopCheck	
+SocialBankingService	stopChecks	
+SocialBankingService	payToBeneficiary	
+SocialBankingService	deRegisterAllCustomerIdentities	
+SocialBankingService	deRegisterCustomerIdentity	
+SovereignGoldBond	CreateOmniFlowCase	
+SovereignGoldBond	GetCustomerSubscription	
+SovereignGoldBond	ValidateTrancheOpen	
+SSPProxy.app	DebitAccount	"This is a Debit request for debiting the customer account held with Partner Bank and
+crediting the YBL Current Account maintained at Partner Bank"
+SSPProxy.app	ReverseDebitAccount	"This is a reversal request for previous debit, here the customer account held with Partner
+Bank is credited and YBL Current Account maintained at Partner Bank is debited."
+SSPProxy.app	GetStatus	This is to get the status of the transaction
+SSPProxy.app	CheckAccountStatus	"This API will be used to check customer account status with Partner Bank whether
+valid/invalid, active/inactive etc."
+SupplyChainInterface	Not Available	
+TaxPaymentService	GetAccountingCodes	This operation will provide accounting codes for the given tax type in case of Indirect Tax payment
+TaxPaymentService	GetMajorHeadCodes	This operation will provide Major Head Tax codes related to ChallanType in case of Direct tax payment
+TaxPaymentService	GetMinorHeadCodes	This operation will provide Minor Head Tax codes related to ChallanType in case of Direct tax payment
+TaxPaymentService	GetNOPCodes	This operation will provide Nature of Payment codes related to ChallanType in case of Direct tax payment
+TaxPaymentService	GetFinancialYear	This operation will provide Financial years mapped for the given major head and challan type
+TaxPaymentService	GetAssessmentYear	This operation will provide Assessment years mapped for the given major head and challan type.
+TaxPaymentService	GetDirTaxPymCustProfiles	The main purpose of this operation to fetch PAN/TAN details of the Customer in case of Direct Tax payment .This  opeartion gets register PAN/TAN details of the customer. Each PAN/TAN is given a name like profile id. Customer can access his register PAN/TAN details using his profileid
+TaxPaymentService	GetDirTaxPymDtl	This operation will get direct tax payment details of a customer based on profile id and challan type (tax type)
+TaxPaymentService	GetIndTaxPymCustProfiles	It provides  registered assessecode details of the customer. Each assessecode is given a name like profile id. Customer can access these details using his profileid.
+TaxPaymentService	GetIndTaxPymDtls	This will provide operation which provides indirect tax payment details of a customer
+TaxPaymentService	UpdateDirTaxPym	This will facilitate consumer to update Direct Tax Payment.
+TaxPaymentService	UpdateIndTaxPym	This will facilitate consumer to update Indirect Tax Payment
+TokenApp	Not Available	
+UPIRemitServices	SetORValidateMPIN	
+UPIRemitServices	GetLatestAadhaarLinkedAcc	
+UPIRemitServices	GetHashKey	
+UPIService	SetORValidateMPIN	
+UPIService	GetLatestAadhaarLinkedAcc	
+UPIService	GetHashKey	
+VirtualCardManagementService	registerCard	
+VirtualCardManagementService	getCardDetail	
+VirtualCardManagementService	blockCard	
+VisionPlusNotification	Not Available	
+WallStreet_Cust_File_Mapper	Not Available	
+Walstreet_XML_Insertion	Not Available	
+YesRobot.ChatBot.app	validateRNBCustIDLockflag	
